@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thinkful-ei-firefly/NPM-Packages-and-Webpack_Andrew-Ahmed/issues"
   },
-  "homepage": "https://github.com/thinkful-ei-firefly/NPM-Packages-and-Webpack_Andrew-Ahmed#readme"
+  "homepage": "https://github.com/thinkful-ei-firefly/NPM-Packages-and-Webpack_Andrew-Ahmed#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }

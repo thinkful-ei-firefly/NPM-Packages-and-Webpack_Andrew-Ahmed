@@ -21,3 +21,12 @@ $(document).ready(function() {
     .catch(err => console.log(err.message));
 });
 
+// import { privateVar, publicVar } from './fooModule';
+
+// console.log(privateVar);   // undefined
+// console.log(publicVar);    // 'This is exposed'
+
+import fooModule from './fooModule';
+
+console.log(fooModule.privateVar); // undefined
+console.log(fooModule.publicVar); // 'This is exposed'

@@ -1,13 +1,21 @@
+
+
+// import 'normalize.css';
+import './index.css';
 import $ from 'jquery';
 
-function main() {
-  console.log('DOM is loaded');
+import shoppingList from './shopping-list';
+import api from './api';
+import store from './store';
 
-  const startMsg = $('<p>Webpack is working!</p>');
-  $('#root').append(startMsg);
-}
+// function main() {
+//   console.log('DOM is loaded');
 
-$(main);
+//   const startMsg = $('<p>Webpack is working!</p>');
+//   $('#root').append(startMsg);
+// }
+
+// $(main);
 
 $(document).ready(function() {
   shoppingList.bindEventListeners();
@@ -26,10 +34,9 @@ $(document).ready(function() {
 // console.log(privateVar);   // undefined
 // console.log(publicVar);    // 'This is exposed'
 
-import fooModule from './fooModule';
+// import fooModule from './fooModule';
 
-console.log(fooModule.privateVar); // undefined
-console.log(fooModule.publicVar); // 'This is exposed'
+// console.log(fooModule.privateVar); // undefined
+// console.log(fooModule.publicVar); // 'This is exposed'
 
-import './index.css';
 

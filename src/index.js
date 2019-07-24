@@ -30,3 +30,6 @@ import fooModule from './fooModule';
 
 console.log(fooModule.privateVar); // undefined
 console.log(fooModule.publicVar); // 'This is exposed'
+
+import './index.css';
+

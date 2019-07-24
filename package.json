@@ -1,0 +1,20 @@
+{
+  "name": "NPM-Packages-and-Webpack_Andrew-Ahmed",
+  "version": "1.0.0",
+  "description": "7/24 / Andrew Jessen-Tyler and Ahmed Abdulmannan / NPM Packages and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-firefly/NPM-Packages-and-Webpack_Andrew-Ahmed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-firefly/NPM-Packages-and-Webpack_Andrew-Ahmed/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-firefly/NPM-Packages-and-Webpack_Andrew-Ahmed#readme"
+}
